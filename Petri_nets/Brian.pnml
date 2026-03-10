@@ -7,26 +7,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="1384.5" y="994.5"/>
+          <position x="1326" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1384.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Gateway_0e43ask_end_split">
-      <name>
-        <text> Chosen</text>
-        <graphics>
-          <position x="1641.9" y="1263.6"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1641.9" y="1263.6"/>
+        <position x="1326" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -37,11 +22,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Delega scelta Chosen</text>
         <graphics>
-          <position x="1805.6999999999998" y="994.5"/>
+          <position x="1747.1999999999998" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1805.6999999999998" y="994.5"/>
+        <position x="1747.1999999999998" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -52,11 +37,26 @@ Created with bpmn-to-petri-->
       <name>
         <text>Comunica non disponibilità Chosen</text>
         <graphics>
-          <position x="1548.3000000000002" y="690.3"/>
+          <position x="1489.8000000000002" y="690.3"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1548.3000000000002" y="690.3"/>
+        <position x="1489.8000000000002" y="690.3"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Activity_1628rr8_end_split">
+      <name>
+        <text>Invia proposta data, servizi Chosen</text>
+        <graphics>
+          <position x="1957.8000000000002" y="1263.6"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1957.8000000000002" y="1263.6"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -67,11 +67,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="819" y="994.5"/>
+          <position x="760.5" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="819" y="994.5"/>
+        <position x="760.5" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -82,11 +82,11 @@ Created with bpmn-to-petri-->
       <name>
         <text> Choosing</text>
         <graphics>
-          <position x="614.25" y="994.5"/>
+          <position x="555.75" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="614.25" y="994.5"/>
+        <position x="555.75" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -97,161 +97,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Riceve comunicazione problema Choosing</text>
         <graphics>
-          <position x="4750.200000000001" y="1786.1999999999998"/>
+          <position x="4104.75" y="1827.15"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4750.200000000001" y="1786.1999999999998"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Gateway_0yf5g1m">
-      <name>
-        <text/>
-        <graphics>
-          <position x="4777.5" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4777.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Activity_1igq49r_end_split">
-      <name>
-        <text>Rifiuta Chosen</text>
-        <graphics>
-          <position x="4929.6" y="842.4000000000001"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4929.6" y="842.4000000000001"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Gateway_0qytaaw_end_split">
-      <name>
-        <text> Chosen</text>
-        <graphics>
-          <position x="4894.5" y="1205.1"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4894.5" y="1205.1"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Activity_0x58ehm_end_split">
-      <name>
-        <text>Accetta Chosen</text>
-        <graphics>
-          <position x="5081.700000000001" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5081.700000000001" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Gateway_022iixg">
-      <name>
-        <text/>
-        <graphics>
-          <position x="4543.5" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4543.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Event_03cwj12_middle_join">
-      <name>
-        <text>Riceve controproposta Choosing</text>
-        <graphics>
-          <position x="4229.55" y="1308.45"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4229.55" y="1308.45"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Event_08zd6tb_middle_join">
-      <name>
-        <text>Riceve proposta Choosing</text>
-        <graphics>
-          <position x="4379.700000000001" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4379.700000000001" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Gateway_17b8a14">
-      <name>
-        <text/>
-        <graphics>
-          <position x="6220.5" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="6220.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Event_1ohhfrk_middle_join">
-      <name>
-        <text>Accordo raggiunto Choosing</text>
-        <graphics>
-          <position x="4555.200000000001" y="639.6"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4555.200000000001" y="639.6"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Activity_0x58ehm_middle_join">
-      <name>
-        <text>Accetta Choosing</text>
-        <graphics>
-          <position x="5565.3" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5565.3" y="994.5"/>
+        <position x="4104.75" y="1827.15"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -262,11 +112,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="2964" y="1443"/>
+          <position x="2671.5" y="1443"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2964" y="1443"/>
+        <position x="2671.5" y="1443"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -275,13 +125,13 @@ Created with bpmn-to-petri-->
     </place>
     <place id="Activity_1628rr8_middle_join">
       <name>
-        <text>Invia proposta Choosing</text>
+        <text>Invia proposta data, servizi Choosing</text>
         <graphics>
-          <position x="2745.6000000000004" y="1443"/>
+          <position x="2466.75" y="1443"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2745.6000000000004" y="1443"/>
+        <position x="2466.75" y="1443"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -292,11 +142,161 @@ Created with bpmn-to-petri-->
       <name>
         <text>Invia controproposta Choosing</text>
         <graphics>
-          <position x="5120.700000000001" y="1374.75"/>
+          <position x="4336.8" y="1374.75"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5120.700000000001" y="1374.75"/>
+        <position x="4336.8" y="1374.75"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Gateway_022iixg">
+      <name>
+        <text/>
+        <graphics>
+          <position x="3997.5" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3997.5" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Event_03cwj12_middle_join">
+      <name>
+        <text>Riceve controproposta Choosing</text>
+        <graphics>
+          <position x="3574.3500000000004" y="1308.45"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3574.3500000000004" y="1308.45"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Event_08zd6tb_middle_join">
+      <name>
+        <text>Riceve proposta Choosing</text>
+        <graphics>
+          <position x="3792.75" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3792.75" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Gateway_0yf5g1m">
+      <name>
+        <text/>
+        <graphics>
+          <position x="4231.5" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4231.5" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Activity_0x58ehm_end_split">
+      <name>
+        <text>Accetta Chosen</text>
+        <graphics>
+          <position x="4570.8" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4570.8" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Activity_1igq49r_end_split">
+      <name>
+        <text>Rifiuta Chosen</text>
+        <graphics>
+          <position x="4360.200000000001" y="842.4000000000001"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4360.200000000001" y="842.4000000000001"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Activity_0xtbpcq_end_split">
+      <name>
+        <text>Invia controproposta Chosen</text>
+        <graphics>
+          <position x="4722.9" y="1205.1"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4722.9" y="1205.1"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Gateway_17b8a14">
+      <name>
+        <text/>
+        <graphics>
+          <position x="5362.5" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="5362.5" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Event_1ohhfrk_middle_join">
+      <name>
+        <text>Accordo raggiunto Choosing</text>
+        <graphics>
+          <position x="3806.3999999999996" y="639.6"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="3806.3999999999996" y="639.6"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Activity_0x58ehm_middle_join">
+      <name>
+        <text>Accetta Choosing</text>
+        <graphics>
+          <position x="4966.65" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4966.65" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -307,11 +307,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="3178.5" y="1443"/>
+          <position x="2886" y="1443"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3178.5" y="1443"/>
+        <position x="2886" y="1443"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -322,86 +322,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="6961.5" y="994.5"/>
+          <position x="5928" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6961.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_1wxkm0k">
-      <name>
-        <text/>
-        <graphics>
-          <position x="1950" y="1443"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1950" y="1443"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_17rsgs8">
-      <name>
-        <text/>
-        <graphics>
-          <position x="1813.5" y="1774.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1813.5" y="1774.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_01vupea">
-      <name>
-        <text/>
-        <graphics>
-          <position x="2233.7250000000004" y="1443"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="2233.7250000000004" y="1443"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_1bx0dpk">
-      <name>
-        <text/>
-        <graphics>
-          <position x="2380.95" y="1774.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="2380.95" y="1774.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_0q4y513">
-      <name>
-        <text/>
-        <graphics>
-          <position x="2516.4750000000004" y="1443"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="2516.4750000000004" y="1443"/>
+        <position x="5928" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -412,101 +337,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="3198" y="994.5"/>
+          <position x="2866.5" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3198" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_0lbi3ad">
-      <name>
-        <text/>
-        <graphics>
-          <position x="5235.75" y="741"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5235.75" y="741"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_0ippiii">
-      <name>
-        <text/>
-        <graphics>
-          <position x="5128.5" y="1345.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5128.5" y="1345.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_018a7ax">
-      <name>
-        <text/>
-        <graphics>
-          <position x="4972.5" y="1618.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4972.5" y="1618.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_1112jm9">
-      <name>
-        <text/>
-        <graphics>
-          <position x="5430.75" y="1345.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5430.75" y="1345.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_0x3vo0t">
-      <name>
-        <text/>
-        <graphics>
-          <position x="5577" y="1618.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5577" y="1618.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <initialMarking>
-        <text>0</text>
-      </initialMarking>
-    </place>
-    <place id="Flow_1caqvkp">
-      <name>
-        <text/>
-        <graphics>
-          <position x="5811" y="1345.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5811" y="1345.5"/>
+        <position x="2866.5" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -517,11 +352,26 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="1780.3500000000001" y="487.5"/>
+          <position x="1755" y="487.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1780.3500000000001" y="487.5"/>
+        <position x="1755" y="487.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+    </place>
+    <place id="Flow_0lbi3ad">
+      <name>
+        <text/>
+        <graphics>
+          <position x="4563" y="741"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4563" y="741"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -532,41 +382,41 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="7419.75" y="994.5"/>
+          <position x="6435" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7419.75" y="994.5"/>
+        <position x="6435" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
         <text>0</text>
       </initialMarking>
     </place>
-    <place id="start_p_Process_0w85sit">
+    <place id="start_p_Process_1n0lggc">
       <name>
         <text>Start</text>
         <graphics>
-          <position x="376.5" y="994.5"/>
+          <position x="318" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="376.5" y="994.5"/>
+        <position x="318" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
         <text>1</text>
       </initialMarking>
     </place>
-    <place id="end_p_Process_0w85sit">
+    <place id="end_p_Process_1n0lggc">
       <name>
         <text>End</text>
         <graphics>
-          <position x="7657.5" y="741"/>
+          <position x="6702" y="741"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7657.5" y="741"/>
+        <position x="6702" y="741"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -577,23 +427,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="526.5" y="994.5"/>
+          <position x="468" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="526.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Event_0n78iu6">
-      <name>
-        <text/>
-        <graphics>
-          <position x="5440.5" y="741"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5440.5" y="741"/>
+        <position x="468" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -601,11 +439,23 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="1903.1999999999998" y="487.5"/>
+          <position x="1911" y="487.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1903.1999999999998" y="487.5"/>
+        <position x="1911" y="487.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
+    <transition id="Event_0n78iu6">
+      <name>
+        <text/>
+        <graphics>
+          <position x="4680" y="741"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4680" y="741"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -613,71 +463,11 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="7507.5" y="994.5"/>
+          <position x="6552" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7507.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_04ad9ws">
-      <name>
-        <text>Sceglie data</text>
-        <graphics>
-          <position x="2086.5" y="1443"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="2086.5" y="1443"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_0zs99pw">
-      <name>
-        <text>Sceglie servizi</text>
-        <graphics>
-          <position x="2086.5" y="1774.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="2086.5" y="1774.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_0yao5cq">
-      <name>
-        <text>Sceglie data</text>
-        <graphics>
-          <position x="5284.5" y="1345.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5284.5" y="1345.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_09mvrvq">
-      <name>
-        <text>Sceglie servizi</text>
-        <graphics>
-          <position x="5284.5" y="1618.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5284.5" y="1618.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_1628rr8">
-      <name>
-        <text>Invia proposta</text>
-        <graphics>
-          <position x="2652" y="1443"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="2652" y="1443"/>
+        <position x="6552" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -685,35 +475,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Delega scelta</text>
         <graphics>
-          <position x="2086.5" y="994.5"/>
+          <position x="2028" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2086.5" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_1igq49r">
-      <name>
-        <text>Rifiuta</text>
-        <graphics>
-          <position x="5031" y="741"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5031" y="741"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_0x58ehm">
-      <name>
-        <text>Accetta</text>
-        <graphics>
-          <position x="5284.5" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5284.5" y="994.5"/>
+        <position x="2028" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -721,11 +487,47 @@ Created with bpmn-to-petri-->
       <name>
         <text>Comunica non disponibilità</text>
         <graphics>
-          <position x="1657.5" y="487.5"/>
+          <position x="1599" y="487.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1657.5" y="487.5"/>
+        <position x="1599" y="487.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
+    <transition id="Activity_1628rr8">
+      <name>
+        <text>Invia proposta data, servizi</text>
+        <graphics>
+          <position x="2379" y="1443"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2379" y="1443"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
+    <transition id="Activity_0x58ehm">
+      <name>
+        <text>Accetta</text>
+        <graphics>
+          <position x="4797" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4797" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
+    <transition id="Activity_1igq49r">
+      <name>
+        <text>Rifiuta</text>
+        <graphics>
+          <position x="4446" y="741"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4446" y="741"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -733,11 +535,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Invia controproposta</text>
         <graphics>
-          <position x="6045" y="1345.5"/>
+          <position x="5050.5" y="1345.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6045" y="1345.5"/>
+        <position x="5050.5" y="1345.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -745,11 +547,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Riceve disponibilità</text>
         <graphics>
-          <position x="1111.5" y="994.5"/>
+          <position x="1053" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1111.5" y="994.5"/>
+        <position x="1053" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -757,11 +559,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Accordo raggiunto</text>
         <graphics>
-          <position x="3841.5" y="487.5"/>
+          <position x="3139.5" y="487.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3841.5" y="487.5"/>
+        <position x="3139.5" y="487.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -769,11 +571,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Riceve controproposta</text>
         <graphics>
-          <position x="4095" y="1443"/>
+          <position x="3393" y="1443"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4095" y="1443"/>
+        <position x="3393" y="1443"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -781,11 +583,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Riceve proposta</text>
         <graphics>
-          <position x="4309.5" y="994.5"/>
+          <position x="3705" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4309.5" y="994.5"/>
+        <position x="3705" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -793,11 +595,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Riceve prenotazione</text>
         <graphics>
-          <position x="7332" y="994.5"/>
+          <position x="6318" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="7332" y="994.5"/>
+        <position x="6318" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -805,23 +607,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Riceve comunicazione problema</text>
         <graphics>
-          <position x="6435" y="2125.5"/>
+          <position x="5538" y="2184"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6435" y="2125.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Gateway_0e43ask_middle_split">
-      <name>
-        <text> Choosing</text>
-        <graphics>
-          <position x="1513.2" y="1129.0500000000002"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1513.2" y="1129.0500000000002"/>
+        <position x="5538" y="2184"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -829,11 +619,11 @@ Created with bpmn-to-petri-->
       <name>
         <text>Delega scelta Choosing</text>
         <graphics>
-          <position x="1595.1000000000001" y="994.5"/>
+          <position x="1536.6000000000001" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1595.1000000000001" y="994.5"/>
+        <position x="1536.6000000000001" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -841,11 +631,23 @@ Created with bpmn-to-petri-->
       <name>
         <text>Comunica non disponibilità Choosing</text>
         <graphics>
-          <position x="1466.4" y="842.4000000000001"/>
+          <position x="1407.9" y="842.4000000000001"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1466.4" y="842.4000000000001"/>
+        <position x="1407.9" y="842.4000000000001"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
+    <transition id="Activity_1628rr8_middle_split">
+      <name>
+        <text>Invia proposta data, servizi Choosing</text>
+        <graphics>
+          <position x="1641.9" y="1129.0500000000002"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1641.9" y="1129.0500000000002"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -853,11 +655,11 @@ Created with bpmn-to-petri-->
       <name>
         <text> Chosen</text>
         <graphics>
-          <position x="702" y="994.5"/>
+          <position x="643.5" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="702" y="994.5"/>
+        <position x="643.5" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -865,107 +667,23 @@ Created with bpmn-to-petri-->
       <name>
         <text>Riceve comunicazione problema Chosen</text>
         <graphics>
-          <position x="3065.4" y="1446.9"/>
+          <position x="2671.5" y="1470.3000000000002"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3065.4" y="1446.9"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_1igq49r_middle_split">
-      <name>
-        <text>Rifiuta Choosing</text>
-        <graphics>
-          <position x="4853.55" y="918.45"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4853.55" y="918.45"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Gateway_0qytaaw_middle_split">
-      <name>
-        <text> Choosing</text>
-        <graphics>
-          <position x="4836" y="1099.8000000000002"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4836" y="1099.8000000000002"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_0x58ehm_middle_split">
-      <name>
-        <text>Accetta Choosing</text>
-        <graphics>
-          <position x="4929.6" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4929.6" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Event_03cwj12_end_join">
-      <name>
-        <text>Riceve controproposta Chosen</text>
-        <graphics>
-          <position x="4364.1" y="1173.9"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4364.1" y="1173.9"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Event_08zd6tb_end_join">
-      <name>
-        <text>Riceve proposta Chosen</text>
-        <graphics>
-          <position x="4449.9" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="4449.9" y="994.5"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Event_1ohhfrk_end_join">
-      <name>
-        <text>Accordo raggiunto Chosen</text>
-        <graphics>
-          <position x="5268.9" y="791.7"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5268.9" y="791.7"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </transition>
-    <transition id="Activity_0x58ehm_end_join">
-      <name>
-        <text>Accetta Chosen</text>
-        <graphics>
-          <position x="5846.1" y="994.5"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="5846.1" y="994.5"/>
+        <position x="2671.5" y="1470.3000000000002"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
     <transition id="Activity_1628rr8_end_join">
       <name>
-        <text>Invia proposta Chosen</text>
+        <text>Invia proposta data, servizi Chosen</text>
         <graphics>
-          <position x="2839.2" y="1443"/>
+          <position x="2554.5" y="1443"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2839.2" y="1443"/>
+        <position x="2554.5" y="1443"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -973,83 +691,95 @@ Created with bpmn-to-petri-->
       <name>
         <text>Invia controproposta Chosen</text>
         <graphics>
-          <position x="4196.4" y="1404"/>
+          <position x="3623.1000000000004" y="1404"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4196.4" y="1404"/>
+        <position x="3623.1000000000004" y="1404"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
-    <transition id="Gateway_0e43ask">
+    <transition id="Event_03cwj12_end_join">
       <name>
-        <text/>
+        <text>Riceve controproposta Chosen</text>
         <graphics>
-          <position x="1813.5" y="1443"/>
+          <position x="3755.7000000000003" y="1173.9"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1813.5" y="1443"/>
+        <position x="3755.7000000000003" y="1173.9"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
-    <transition id="Gateway_01bj0oo">
+    <transition id="Event_08zd6tb_end_join">
       <name>
-        <text/>
+        <text>Riceve proposta Chosen</text>
         <graphics>
-          <position x="2380.95" y="1443"/>
+          <position x="3880.5" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="2380.95" y="1443"/>
+        <position x="3880.5" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
-    <transition id="Gateway_0qytaaw">
+    <transition id="Activity_0x58ehm_middle_split">
       <name>
-        <text/>
+        <text>Accetta Choosing</text>
         <graphics>
-          <position x="4972.5" y="1345.5"/>
+          <position x="4401.15" y="994.5"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4972.5" y="1345.5"/>
+        <position x="4401.15" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
-    <transition id="Gateway_0bnxe6w">
+    <transition id="Activity_1igq49r_middle_split">
       <name>
-        <text/>
+        <text>Rifiuta Choosing</text>
         <graphics>
-          <position x="5577" y="1345.5"/>
+          <position x="4295.85" y="918.45"/>
         </graphics>
       </name>
       <graphics>
-        <position x="5577" y="1345.5"/>
+        <position x="4295.85" y="918.45"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
-    <transition id="Flow_0ot15z1">
+    <transition id="Activity_0xtbpcq_middle_split">
       <name>
-        <text/>
+        <text>Invia controproposta Choosing</text>
         <graphics>
-          <position x="4660.5" y="994.5"/>
+          <position x="4477.200000000001" y="1099.8000000000002"/>
         </graphics>
       </name>
       <graphics>
-        <position x="4660.5" y="994.5"/>
+        <position x="4477.200000000001" y="1099.8000000000002"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
-    <transition id="Flow_003tmfk">
+    <transition id="Event_1ohhfrk_end_join">
       <name>
-        <text/>
+        <text>Accordo raggiunto Chosen</text>
         <graphics>
-          <position x="6591" y="994.5"/>
+          <position x="4473.3" y="791.7"/>
         </graphics>
       </name>
       <graphics>
-        <position x="6591" y="994.5"/>
+        <position x="4473.3" y="791.7"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
+    <transition id="Activity_0x58ehm_end_join">
+      <name>
+        <text>Accetta Chosen</text>
+        <graphics>
+          <position x="5136.3" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="5136.3" y="994.5"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
@@ -1057,107 +787,111 @@ Created with bpmn-to-petri-->
       <name>
         <text/>
         <graphics>
-          <position x="3071.25" y="1443"/>
+          <position x="2778.75" y="1443"/>
         </graphics>
       </name>
       <graphics>
-        <position x="3071.25" y="1443"/>
+        <position x="2778.75" y="1443"/>
         <dimension x="40" y="40"/>
       </graphics>
     </transition>
-    <arc id="Gateway_0fs8iw8Gateway_0e43ask_middle_split" source="Gateway_0fs8iw8" target="Gateway_0e43ask_middle_split"/>
-    <arc id="Gateway_0e43ask_middle_splitGateway_0e43ask_end_split" source="Gateway_0e43ask_middle_split" target="Gateway_0e43ask_end_split"/>
+    <transition id="Flow_0ot15z1">
+      <name>
+        <text/>
+        <graphics>
+          <position x="4114.5" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="4114.5" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
+    <transition id="Flow_003tmfk">
+      <name>
+        <text/>
+        <graphics>
+          <position x="5645.25" y="994.5"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="5645.25" y="994.5"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </transition>
     <arc id="Gateway_0fs8iw8Activity_1in6itw_middle_split" source="Gateway_0fs8iw8" target="Activity_1in6itw_middle_split"/>
     <arc id="Activity_1in6itw_middle_splitActivity_1in6itw_end_split" source="Activity_1in6itw_middle_split" target="Activity_1in6itw_end_split"/>
     <arc id="Activity_1in6itw_end_splitActivity_1in6itw" source="Activity_1in6itw_end_split" target="Activity_1in6itw"/>
     <arc id="Gateway_0fs8iw8Activity_1ev4kid_middle_split" source="Gateway_0fs8iw8" target="Activity_1ev4kid_middle_split"/>
     <arc id="Activity_1ev4kid_middle_splitActivity_1ev4kid_end_split" source="Activity_1ev4kid_middle_split" target="Activity_1ev4kid_end_split"/>
     <arc id="Activity_1ev4kid_end_splitActivity_1ev4kid" source="Activity_1ev4kid_end_split" target="Activity_1ev4kid"/>
+    <arc id="Gateway_0fs8iw8Activity_1628rr8_middle_split" source="Gateway_0fs8iw8" target="Activity_1628rr8_middle_split"/>
+    <arc id="Activity_1628rr8_middle_splitActivity_1628rr8_end_split" source="Activity_1628rr8_middle_split" target="Activity_1628rr8_end_split"/>
+    <arc id="Activity_1628rr8_end_splitActivity_1628rr8" source="Activity_1628rr8_end_split" target="Activity_1628rr8"/>
     <arc id="Event_1mpkzdnEvent_1mpkzdn_middle_join" source="Event_1mpkzdn" target="Event_1mpkzdn_middle_join"/>
     <arc id="Event_1mpkzdn_middle_joinEvent_1mpkzdn_end_join" source="Event_1mpkzdn_middle_join" target="Event_1mpkzdn_end_join"/>
     <arc id="Event_1mpkzdn_end_joinGateway_0pcipxu" source="Event_1mpkzdn_end_join" target="Gateway_0pcipxu"/>
     <arc id="Event_0zd9cd1Event_0zd9cd1_middle_join" source="Event_0zd9cd1" target="Event_0zd9cd1_middle_join"/>
     <arc id="Event_0zd9cd1_middle_joinEvent_0zd9cd1_end_join" source="Event_0zd9cd1_middle_join" target="Event_0zd9cd1_end_join"/>
     <arc id="Event_0zd9cd1_end_joinGateway_0pcipxu" source="Event_0zd9cd1_end_join" target="Gateway_0pcipxu"/>
-    <arc id="Gateway_0yf5g1mActivity_1igq49r_middle_split" source="Gateway_0yf5g1m" target="Activity_1igq49r_middle_split"/>
-    <arc id="Activity_1igq49r_middle_splitActivity_1igq49r_end_split" source="Activity_1igq49r_middle_split" target="Activity_1igq49r_end_split"/>
-    <arc id="Activity_1igq49r_end_splitActivity_1igq49r" source="Activity_1igq49r_end_split" target="Activity_1igq49r"/>
-    <arc id="Gateway_0yf5g1mGateway_0qytaaw_middle_split" source="Gateway_0yf5g1m" target="Gateway_0qytaaw_middle_split"/>
-    <arc id="Gateway_0qytaaw_middle_splitGateway_0qytaaw_end_split" source="Gateway_0qytaaw_middle_split" target="Gateway_0qytaaw_end_split"/>
-    <arc id="Gateway_0yf5g1mActivity_0x58ehm_middle_split" source="Gateway_0yf5g1m" target="Activity_0x58ehm_middle_split"/>
-    <arc id="Activity_0x58ehm_middle_splitActivity_0x58ehm_end_split" source="Activity_0x58ehm_middle_split" target="Activity_0x58ehm_end_split"/>
-    <arc id="Activity_0x58ehm_end_splitActivity_0x58ehm" source="Activity_0x58ehm_end_split" target="Activity_0x58ehm"/>
-    <arc id="Event_03cwj12Event_03cwj12_middle_join" source="Event_03cwj12" target="Event_03cwj12_middle_join"/>
-    <arc id="Event_03cwj12_middle_joinEvent_03cwj12_end_join" source="Event_03cwj12_middle_join" target="Event_03cwj12_end_join"/>
-    <arc id="Event_03cwj12_end_joinGateway_022iixg" source="Event_03cwj12_end_join" target="Gateway_022iixg"/>
-    <arc id="Event_08zd6tbEvent_08zd6tb_middle_join" source="Event_08zd6tb" target="Event_08zd6tb_middle_join"/>
-    <arc id="Event_08zd6tb_middle_joinEvent_08zd6tb_end_join" source="Event_08zd6tb_middle_join" target="Event_08zd6tb_end_join"/>
-    <arc id="Event_08zd6tb_end_joinGateway_022iixg" source="Event_08zd6tb_end_join" target="Gateway_022iixg"/>
-    <arc id="Event_1ohhfrkEvent_1ohhfrk_middle_join" source="Event_1ohhfrk" target="Event_1ohhfrk_middle_join"/>
-    <arc id="Event_1ohhfrk_middle_joinEvent_1ohhfrk_end_join" source="Event_1ohhfrk_middle_join" target="Event_1ohhfrk_end_join"/>
-    <arc id="Event_1ohhfrk_end_joinGateway_17b8a14" source="Event_1ohhfrk_end_join" target="Gateway_17b8a14"/>
-    <arc id="Activity_0x58ehmActivity_0x58ehm_middle_join" source="Activity_0x58ehm" target="Activity_0x58ehm_middle_join"/>
-    <arc id="Activity_0x58ehm_middle_joinActivity_0x58ehm_end_join" source="Activity_0x58ehm_middle_join" target="Activity_0x58ehm_end_join"/>
-    <arc id="Activity_0x58ehm_end_joinGateway_17b8a14" source="Activity_0x58ehm_end_join" target="Gateway_17b8a14"/>
     <arc id="Activity_1628rr8Activity_1628rr8_middle_join" source="Activity_1628rr8" target="Activity_1628rr8_middle_join"/>
     <arc id="Activity_1628rr8_middle_joinActivity_1628rr8_end_join" source="Activity_1628rr8_middle_join" target="Activity_1628rr8_end_join"/>
     <arc id="Activity_1628rr8_end_joinGateway_1sklds5" source="Activity_1628rr8_end_join" target="Gateway_1sklds5"/>
     <arc id="Activity_0xtbpcqActivity_0xtbpcq_middle_join" source="Activity_0xtbpcq" target="Activity_0xtbpcq_middle_join"/>
     <arc id="Activity_0xtbpcq_middle_joinActivity_0xtbpcq_end_join" source="Activity_0xtbpcq_middle_join" target="Activity_0xtbpcq_end_join"/>
     <arc id="Activity_0xtbpcq_end_joinGateway_1sklds5" source="Activity_0xtbpcq_end_join" target="Gateway_1sklds5"/>
-    <arc id="Gateway_0e43askFlow_1wxkm0k" source="Gateway_0e43ask" target="Flow_1wxkm0k"/>
-    <arc id="Flow_1wxkm0kActivity_04ad9ws" source="Flow_1wxkm0k" target="Activity_04ad9ws"/>
-    <arc id="Gateway_0e43askFlow_17rsgs8" source="Gateway_0e43ask" target="Flow_17rsgs8"/>
-    <arc id="Flow_17rsgs8Activity_0zs99pw" source="Flow_17rsgs8" target="Activity_0zs99pw"/>
-    <arc id="Activity_04ad9wsFlow_01vupea" source="Activity_04ad9ws" target="Flow_01vupea"/>
-    <arc id="Flow_01vupeaGateway_01bj0oo" source="Flow_01vupea" target="Gateway_01bj0oo"/>
-    <arc id="Activity_0zs99pwFlow_1bx0dpk" source="Activity_0zs99pw" target="Flow_1bx0dpk"/>
-    <arc id="Flow_1bx0dpkGateway_01bj0oo" source="Flow_1bx0dpk" target="Gateway_01bj0oo"/>
-    <arc id="Gateway_01bj0ooFlow_0q4y513" source="Gateway_01bj0oo" target="Flow_0q4y513"/>
-    <arc id="Flow_0q4y513Activity_1628rr8" source="Flow_0q4y513" target="Activity_1628rr8"/>
+    <arc id="Event_03cwj12Event_03cwj12_middle_join" source="Event_03cwj12" target="Event_03cwj12_middle_join"/>
+    <arc id="Event_03cwj12_middle_joinEvent_03cwj12_end_join" source="Event_03cwj12_middle_join" target="Event_03cwj12_end_join"/>
+    <arc id="Event_03cwj12_end_joinGateway_022iixg" source="Event_03cwj12_end_join" target="Gateway_022iixg"/>
+    <arc id="Event_08zd6tbEvent_08zd6tb_middle_join" source="Event_08zd6tb" target="Event_08zd6tb_middle_join"/>
+    <arc id="Event_08zd6tb_middle_joinEvent_08zd6tb_end_join" source="Event_08zd6tb_middle_join" target="Event_08zd6tb_end_join"/>
+    <arc id="Event_08zd6tb_end_joinGateway_022iixg" source="Event_08zd6tb_end_join" target="Gateway_022iixg"/>
+    <arc id="Gateway_0yf5g1mActivity_0x58ehm_middle_split" source="Gateway_0yf5g1m" target="Activity_0x58ehm_middle_split"/>
+    <arc id="Activity_0x58ehm_middle_splitActivity_0x58ehm_end_split" source="Activity_0x58ehm_middle_split" target="Activity_0x58ehm_end_split"/>
+    <arc id="Activity_0x58ehm_end_splitActivity_0x58ehm" source="Activity_0x58ehm_end_split" target="Activity_0x58ehm"/>
+    <arc id="Gateway_0yf5g1mActivity_1igq49r_middle_split" source="Gateway_0yf5g1m" target="Activity_1igq49r_middle_split"/>
+    <arc id="Activity_1igq49r_middle_splitActivity_1igq49r_end_split" source="Activity_1igq49r_middle_split" target="Activity_1igq49r_end_split"/>
+    <arc id="Activity_1igq49r_end_splitActivity_1igq49r" source="Activity_1igq49r_end_split" target="Activity_1igq49r"/>
+    <arc id="Gateway_0yf5g1mActivity_0xtbpcq_middle_split" source="Gateway_0yf5g1m" target="Activity_0xtbpcq_middle_split"/>
+    <arc id="Activity_0xtbpcq_middle_splitActivity_0xtbpcq_end_split" source="Activity_0xtbpcq_middle_split" target="Activity_0xtbpcq_end_split"/>
+    <arc id="Activity_0xtbpcq_end_splitActivity_0xtbpcq" source="Activity_0xtbpcq_end_split" target="Activity_0xtbpcq"/>
+    <arc id="Event_1ohhfrkEvent_1ohhfrk_middle_join" source="Event_1ohhfrk" target="Event_1ohhfrk_middle_join"/>
+    <arc id="Event_1ohhfrk_middle_joinEvent_1ohhfrk_end_join" source="Event_1ohhfrk_middle_join" target="Event_1ohhfrk_end_join"/>
+    <arc id="Event_1ohhfrk_end_joinGateway_17b8a14" source="Event_1ohhfrk_end_join" target="Gateway_17b8a14"/>
+    <arc id="Activity_0x58ehmActivity_0x58ehm_middle_join" source="Activity_0x58ehm" target="Activity_0x58ehm_middle_join"/>
+    <arc id="Activity_0x58ehm_middle_joinActivity_0x58ehm_end_join" source="Activity_0x58ehm_middle_join" target="Activity_0x58ehm_end_join"/>
+    <arc id="Activity_0x58ehm_end_joinGateway_17b8a14" source="Activity_0x58ehm_end_join" target="Gateway_17b8a14"/>
     <arc id="Activity_1in6itwFlow_04tuklv" source="Activity_1in6itw" target="Flow_04tuklv"/>
     <arc id="Flow_04tuklvEvent_08zd6tb" source="Flow_04tuklv" target="Event_08zd6tb"/>
     <arc id="Event_16xpu55Gateway_0fs8iw8" source="Event_16xpu55" target="Gateway_0fs8iw8"/>
     <arc id="Gateway_0pcipxuEvent_16xpu55" source="Gateway_0pcipxu" target="Event_16xpu55"/>
-    <arc id="Gateway_022iixgFlow_0ot15z1" source="Gateway_022iixg" target="Flow_0ot15z1"/>
-    <arc id="Flow_0ot15z1Gateway_0yf5g1m" source="Flow_0ot15z1" target="Gateway_0yf5g1m"/>
-    <arc id="Gateway_17b8a14Flow_003tmfk" source="Gateway_17b8a14" target="Flow_003tmfk"/>
-    <arc id="Flow_003tmfkGateway_0rvpuhk" source="Flow_003tmfk" target="Gateway_0rvpuhk"/>
-    <arc id="Activity_1igq49rFlow_0lbi3ad" source="Activity_1igq49r" target="Flow_0lbi3ad"/>
-    <arc id="Flow_0lbi3adEvent_0n78iu6" source="Flow_0lbi3ad" target="Event_0n78iu6"/>
-    <arc id="Gateway_0qytaawFlow_0ippiii" source="Gateway_0qytaaw" target="Flow_0ippiii"/>
-    <arc id="Flow_0ippiiiActivity_0yao5cq" source="Flow_0ippiii" target="Activity_0yao5cq"/>
-    <arc id="Gateway_0qytaawFlow_018a7ax" source="Gateway_0qytaaw" target="Flow_018a7ax"/>
-    <arc id="Flow_018a7axActivity_09mvrvq" source="Flow_018a7ax" target="Activity_09mvrvq"/>
-    <arc id="Activity_0yao5cqFlow_1112jm9" source="Activity_0yao5cq" target="Flow_1112jm9"/>
-    <arc id="Flow_1112jm9Gateway_0bnxe6w" source="Flow_1112jm9" target="Gateway_0bnxe6w"/>
-    <arc id="Activity_09mvrvqFlow_0x3vo0t" source="Activity_09mvrvq" target="Flow_0x3vo0t"/>
-    <arc id="Flow_0x3vo0tGateway_0bnxe6w" source="Flow_0x3vo0t" target="Gateway_0bnxe6w"/>
-    <arc id="Gateway_0bnxe6wFlow_1caqvkp" source="Gateway_0bnxe6w" target="Flow_1caqvkp"/>
-    <arc id="Flow_1caqvkpActivity_0xtbpcq" source="Flow_1caqvkp" target="Activity_0xtbpcq"/>
     <arc id="Activity_1ev4kidFlow_10dmrx2" source="Activity_1ev4kid" target="Flow_10dmrx2"/>
     <arc id="Flow_10dmrx2Event_1pwols8" source="Flow_10dmrx2" target="Event_1pwols8"/>
-    <arc id="Gateway_0jwpavjEvent_1ohhfrk" source="Gateway_0jwpavj" target="Event_1ohhfrk">
-      <graphics>
-        <position x="3198.5" y="507.5"/>
-      </graphics>
-    </arc>
     <arc id="Gateway_1sklds5Flow_11lcvhh" source="Gateway_1sklds5" target="Flow_11lcvhh"/>
     <arc id="Flow_11lcvhhGateway_0jwpavj" source="Flow_11lcvhh" target="Gateway_0jwpavj"/>
-    <arc id="Gateway_0jwpavjEvent_03cwj12" source="Gateway_0jwpavj" target="Event_03cwj12"/>
-    <arc id="Event_0wovalmFlow_1t0rxj4" source="Event_0wovalm" target="Flow_1t0rxj4"/>
-    <arc id="Flow_1t0rxj4Event_07oj0wd" source="Flow_1t0rxj4" target="Event_07oj0wd"/>
-    <arc id="Gateway_0rvpuhkEvent_0wovalm" source="Gateway_0rvpuhk" target="Event_0wovalm"/>
-    <arc id="Gateway_0rvpuhkEvent_0zd9cd1" source="Gateway_0rvpuhk" target="Event_0zd9cd1">
+    <arc id="Gateway_0jwpavjEvent_1ohhfrk" source="Gateway_0jwpavj" target="Event_1ohhfrk">
       <graphics>
-        <position x="6981.5" y="2145.5"/>
+        <position x="2906" y="507.5"/>
       </graphics>
     </arc>
-    <arc id="Gateway_0e43ask_end_splitGateway_0e43ask" source="Gateway_0e43ask_end_split" target="Gateway_0e43ask"/>
-    <arc id="Gateway_0qytaaw_end_splitGateway_0qytaaw" source="Gateway_0qytaaw_end_split" target="Gateway_0qytaaw"/>
-    <arc id="start_p_Process_0w85sitEvent_1mpkzdn" source="start_p_Process_0w85sit" target="Event_1mpkzdn"/>
-    <arc id="Event_0n78iu6end_p_Process_0w85sit" source="Event_0n78iu6" target="end_p_Process_0w85sit"/>
-    <arc id="Event_1pwols8end_p_Process_0w85sit" source="Event_1pwols8" target="end_p_Process_0w85sit"/>
-    <arc id="Event_07oj0wdend_p_Process_0w85sit" source="Event_07oj0wd" target="end_p_Process_0w85sit"/>
+    <arc id="Gateway_0jwpavjEvent_03cwj12" source="Gateway_0jwpavj" target="Event_03cwj12"/>
+    <arc id="Gateway_022iixgFlow_0ot15z1" source="Gateway_022iixg" target="Flow_0ot15z1"/>
+    <arc id="Flow_0ot15z1Gateway_0yf5g1m" source="Flow_0ot15z1" target="Gateway_0yf5g1m"/>
+    <arc id="Activity_1igq49rFlow_0lbi3ad" source="Activity_1igq49r" target="Flow_0lbi3ad"/>
+    <arc id="Flow_0lbi3adEvent_0n78iu6" source="Flow_0lbi3ad" target="Event_0n78iu6"/>
+    <arc id="Gateway_17b8a14Flow_003tmfk" source="Gateway_17b8a14" target="Flow_003tmfk"/>
+    <arc id="Flow_003tmfkGateway_0rvpuhk" source="Flow_003tmfk" target="Gateway_0rvpuhk"/>
+    <arc id="Gateway_0rvpuhkEvent_0zd9cd1" source="Gateway_0rvpuhk" target="Event_0zd9cd1">
+      <graphics>
+        <position x="5948" y="2204"/>
+      </graphics>
+    </arc>
+    <arc id="Gateway_0rvpuhkEvent_0wovalm" source="Gateway_0rvpuhk" target="Event_0wovalm"/>
+    <arc id="Event_0wovalmFlow_1t0rxj4" source="Event_0wovalm" target="Flow_1t0rxj4"/>
+    <arc id="Flow_1t0rxj4Event_07oj0wd" source="Flow_1t0rxj4" target="Event_07oj0wd"/>
+    <arc id="start_p_Process_1n0lggcEvent_1mpkzdn" source="start_p_Process_1n0lggc" target="Event_1mpkzdn"/>
+    <arc id="Event_1pwols8end_p_Process_1n0lggc" source="Event_1pwols8" target="end_p_Process_1n0lggc"/>
+    <arc id="Event_0n78iu6end_p_Process_1n0lggc" source="Event_0n78iu6" target="end_p_Process_1n0lggc"/>
+    <arc id="Event_07oj0wdend_p_Process_1n0lggc" source="Event_07oj0wd" target="end_p_Process_1n0lggc"/>
   </net>
 </pnml>
